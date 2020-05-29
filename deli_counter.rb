@@ -14,6 +14,7 @@ puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
 end
 
 def now_serving(katz_deli)
+  if katz_deli > 0 
   puts "Currently serving #{katz_deli.shift}."
-puts "There is nobody waiting to be served!"
+  puts "There is nobody waiting to be served!"
 end
