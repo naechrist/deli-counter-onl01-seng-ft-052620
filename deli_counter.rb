@@ -9,7 +9,6 @@ end
 end
 
 def take_a_number(katz_deli, name)
-name = "Ada"
-counter = 1 
-return "Welcome, #{name}. You are number #{counter} in line."
+
+
 end
