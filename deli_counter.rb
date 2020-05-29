@@ -14,5 +14,5 @@ puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
 end
 
 def now_serving(katz_deli)
-
+puts "There is nobody waiting to be served!"
 end
